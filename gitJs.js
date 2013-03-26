@@ -20,7 +20,7 @@ function initGitJs(){
 
 function loadMenu(){
 	var div="menu"; 
-	var content = "menu goes here! <ul><li> firsti, secon </li></ul>";
+	var content = "<ul><li> Menu to come </li></ul>";
 
 	// put categories in a list. 
 
@@ -37,6 +37,7 @@ function loadFile(div, category, fileName){
 	div = ((div != null) ? div : "content");
 	category = ((category != null) ? category : "");
 	fileName = ((fileName != null) ? fileName : "welcome");
+	fileName = ((fileName != "") ? fileName : "welcome");
 
 	var div="content";
 	var file = "/content/"+category+"/"+fileName+".md";

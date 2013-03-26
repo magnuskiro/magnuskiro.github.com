@@ -1,27 +1,41 @@
 <!DOCTYPE html>
-
 <html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    <head>
-        <title>magnuskiro Homepage</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
 
-<!--        
-        <link rel="stylesheet" type="text/css" href="style.css" />
--->    
+   	<script type="text/javascript" src="pagedown/Markdown.Converter.js"></script>
+   	<script type="text/javascript" src="pagedown/Markdown.Sanitizer.js"></script>
+   	<script type="text/javascript" src="pagedown/Markdown.Editor.js"></script>
+   	<script type="text/javascript" src="gitJs.js"></script>
 
-    	<script type="text/javascript" src="pagedown/Markdown.Converter.js"></script>
-    	<script type="text/javascript" src="pagedown/Markdown.Sanitizer.js"></script>
-    	<script type="text/javascript" src="pagedown/Markdown.Editor.js"></script>
-    	<script type="text/javascript" src="gitJs/main.js"></script>
 
-    </head>
-    <body onload="initGitJs()" >
-	<div id="menu"></div>
-	<div id="content"></div>
-	
-	<div id="footer">
-		<script>loadFile("footer","","new");</script></div>
-	</div>
-	
-	</body>
+    <title>magnuskiro.no</title>
+  </head>
+
+  <body onload="initGitJs()">
+
+    <header>
+      <div class="container">
+        <h1>magnusiro.no</h1>
+        <h2>About me, for me, by me.</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/magnuskiro" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+	  <div id="menu" />
+    </header>
+
+    <div class="container">
+		<section id="main_content">
+			<div id="content">
+	  		</div>
+  
+    	</section>
+    </div>
+  </body>
 </html>
