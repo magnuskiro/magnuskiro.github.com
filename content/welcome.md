@@ -1,4 +1,4 @@
-This is the *first* editor.
+MARKDOWN here: This is the *first* editor.
 ------------------------------
 
 Just plain **Markdown**, except that the input is sanitized:
