@@ -13,16 +13,20 @@
 
 
 <script type="text/javascript">
+var file = "welcome.md";
 function loadJavaScript(){
 	loadMenu();
 	loadFile("welcome.md");
 }
 
 function loadMenu(){
-	document.write("menu");
+	var clas="menu"; 
+	var content = "menu goes here!";
+	document.write("<div class='"+clas+"'>" + content + "</div>");
 }
 
 function loadFile(fileName){
+	var clas="content"; 
 
 	var txtFile = new XMLHttpRequest();
 	txtFile.open("GET", "/pages/"+fileName, true);
@@ -31,8 +35,13 @@ function loadFile(fileName){
     		if (txtFile.status === 200) {  // Makes sure it's found the file.
    				// create markdown converter 
     			var converter = new Markdown.Converter();
+			
+				// convert markdown to html	
+				var content = converter.makeHtml(txtFile.responseText);
+
 				// convert all markdown text to html and display it on the page.
-    			document.write(converter.makeHtml(txtFile.responseText));
+				document.write("<div class='"+clas+"'>" + content + "</div>");
+
     		}
     	}
 	}
@@ -43,5 +52,6 @@ function loadFile(fileName){
 
     </head>
     <body onload="loadJavaScript()">
+	<div id="content" onload="loadFile(file)"> content here </div>
     </body>
 </html>
