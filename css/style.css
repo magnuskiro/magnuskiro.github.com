@@ -1,0 +1,16 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.lefticon {
+    height: 50px;
+    float: left;
+    margin-right: 15px;
+}
+.btn-icon {
+    height: 100px;
+    padding-left: 15%;
+}
+.h-title{
+    text-align: center;
+}

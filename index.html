@@ -1,41 +1,178 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <title>Starter Template for Bootstrap</title>
 
-   	<script type="text/javascript" src="pagedown/Markdown.Converter.js"></script>
-   	<script type="text/javascript" src="pagedown/Markdown.Sanitizer.js"></script>
-   	<script type="text/javascript" src="pagedown/Markdown.Editor.js"></script>
-   	<script type="text/javascript" src="gitJs.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- TODO fix feedback html and script -->
+    <script>
+        function showFeedback(){
+            alert("This is a test");
+        }
+        function redirectHome(){
+            window.location="http://magnuskiro.no";
+        }
+    </script>
 
+</head>
 
-    <title>magnuskiro.no</title>
-  </head>
+<body>
 
-  <body onload="initGitJs()">
- site under construction....
-    <header>
-      <div class="container">
-        <h1>magnusiro.no</h1>
-        <h2>About me, for me, by me.</h2>
-
-        <section id="downloads">
-          <a href="https://github.com/magnuskiro" class="btn btn-github"><span class="icon"></span>Repositories</a>
-        </section>
-      </div>
-	  <div id="menu" />
-    </header>
-
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
-		<section id="main_content">
-			<div id="content">
-	  		</div>
-  
-    	</section>
+        <div class="navbar-header">
+
+            <!-- TODO fix new icon. -->
+            <img class="lefticon" src="http://idiap.github.io/bob/img/github.png" onclick="redirectHome()">
+
+            <a target="_blank" class="navbar-brand" href="#">myPanel</a>
+        </div>
+        <div class="navbar-default">
+            <ul class="nav navbar-nav">
+                <!--
+                <li class="active"><a target="_blank" href="#">Project name</a></li>
+                -->
+            </ul>
+        </div><!--/.nav-collapse -->
+        <div class="navbar-right">
+            <!-- TODO fix new icon. -->
+            <img class="lefticon" src="http://idiap.github.io/bob/img/github.png" onclick="showFeedback()">
+        </div>
     </div>
-  </body>
+</div>
+
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+        <h3>Appearance on the web</h3>
+        <div class="col-md-2">
+            <p>
+                <a target="_blank" class="btn" href="https://kodekollektivet.no" role="button">
+                    <img class="btn-icon" src="http://idiap.github.io/bob/img/github.png">
+                </a>
+            </p>
+            <h4 class="h-title">Kodekollektivet</h4>
+        </div>
+        <div class="col-md-2">
+            <p>
+                <a target="_blank" class="btn" href="https://github.com/magnuskiro" role="button">
+                    <img class="btn-icon" src="http://idiap.github.io/bob/img/github.png">
+                </a>
+            </p>
+            <h4 class="h-title">Github</h4>
+        </div>
+        <div class="col-md-2">
+            <p>
+                <a target="_blank" class="btn" href="https://no.linkedin.com/in/magnuskiro/" role="button">
+                    <img class="btn-icon" src="/homepage/images/LinkedIn-InBug-2C.png">
+                </a>
+            </p>
+            <h4 class="h-title">Linkedin</h4>
+        </div>
+        <div class="col-md-2">
+            <p>
+                <a target="_blank" class="btn" href="https://twitter.com/magnuskiro" role="button">
+                    <img class="btn-icon" src="http://idiap.github.io/bob/img/github.png">
+                </a>
+            </p>
+            <h4 class="h-title">Twitter</h4>
+        </div>
+        <div class="col-md-2">
+            <p>
+                <a target="_blank" class="btn" href="https://www.facebook.com/magnuskiro" role="button">
+                    <img class="btn-icon" src="http://idiap.github.io/bob/img/github.png">
+                </a>
+            </p>
+            <h4 class="h-title">Facebook</h4>
+        </div>
+    </div>
+
+    <div class="row">
+        <h3>Organizations and Places</h3>
+        <div class="col-md-2">
+            <p>
+                <a target="_blank" class="btn" href="#" role="button">
+                    <img class="btn-icon" src="http://idiap.github.io/bob/img/github.png">
+                </a>
+            </p>
+            <h4 class="h-title">Studentmediene</h4>
+        </div>
+        <div class="col-md-2">
+            <p>
+                <a target="_blank" class="btn" href="#" role="button">
+                    <img class="btn-icon" src="http://idiap.github.io/bob/img/github.png">
+                </a>
+            </p>
+            <h4 class="h-title">Samfundet</h4>
+        </div>
+        <div class="col-md-2">
+            <p>
+                <a target="_blank" class="btn" href="#" role="button">
+                    <img class="btn-icon" src="http://idiap.github.io/bob/img/github.png">
+                </a>
+            </p>
+            <h4 class="h-title">NTNU</h4>
+        </div>
+        <div class="col-md-2">
+            <p>
+                <a target="_blank" class="btn" href="#" role="button">
+                    <img class="btn-icon" src="http://idiap.github.io/bob/img/github.png">
+                </a>
+            </p>
+            <h4 class="h-title">SIT</h4>
+        </div>
+    </div>
+
+    <div class="row">
+        <h3>Personal Links</h3>
+        <div class="col-md-2">
+            <p>
+                <a target="_blank" class="btn" href="#" role="button">
+                    <img class="btn-icon" src="http://idiap.github.io/bob/img/github.png">
+                </a>
+            </p>
+            <h4 class="h-title">Gmail</h4>
+        </div>
+        <div class="col-md-2">
+            <p>
+                <a target="_blank" class="btn" href="#" role="button">
+                    <img class="btn-icon" src="http://idiap.github.io/bob/img/github.png">
+                </a>
+            </p>
+            <h4 class="h-title">Calendar</h4>
+        </div>
+        <div class="col-md-2">
+            <p>
+                <a target="_blank" class="btn" href="#" role="button">
+                    <img class="btn-icon" src="http://idiap.github.io/bob/img/github.png">
+                </a>
+            </p>
+            <h4 class="h-title" class="h-title">Drive</h4>
+        </div>
+    </div>
+
+
+    <hr>
+
+    <footer>
+        <p>&copy; Magnus Kirø - 2014</p>
+    </footer>
+</div> <!-- /container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
 </html>
+
