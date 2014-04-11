@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Master Countdown</title>
+
+  <!-- Bootstrap -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style/flipclock.css">
+
+  <link href="style/splash.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+   <div id="header">
+	<h1 class="caption">Master Countdown </h1> 
+		<h3>Tid som gjenstår til levering av masteroppgaven</h3>
+      <div class="container-fluid"> 
+         <div class="row">
+			<div>
+			</div>
+             <div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1
+col-sm-11 col-sm-offset-1 col-xs-offset-1">
+			<div class="clock"></div>
+
+		</div>
+  		</div>
+	</div>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="assets/js/flipclock.min.js"></script>
+<script type="text/javascript">
+
+  var currentTime = new Date();
+	// 1 June 2014. 
+  var endTime = new Date(2014,5,0,23,59);
+
+  var countdownTime = (endTime - currentTime) / 1000;
+  var clock = $('.clock').FlipClock(countdownTime, {
+    countdown: true
+  });
+</script>
+
+</body>
+</html>
+
