@@ -1,7 +1,7 @@
-magnuskiro.github.com
+magnuskiro.no
 =====================
 
-Personal web page
+Personal web page: http://magnuskiro.no
 
 
 Simple html page with bootstrap styling.
