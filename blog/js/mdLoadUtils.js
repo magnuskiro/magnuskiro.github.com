@@ -29,20 +29,20 @@ function capitaliseFirstLetter(string){
 // example: loadMD('articles/ingredients.md', '#sub-content');
 function loadMD(file, tag){
     var loc = location.href;
-    console.log(typeof loc);
+    //console.log(typeof loc);
     if(loc.indexOf("#") > -1){
-        loc = location.href.split('#')[0];
+        loc = loc.split('#')[0];
     }
-    console.log(loc);
+    //console.log(loc);
 
     if(file === ""){
         file = "missionStatement";
     }
-    console.log(loc+"#"+file);
+    //console.log(loc+"#"+file);
     location.href = loc+"#"+file;
 
     var url = baseLocation+file+".md";
-    console.log(url);
+    //console.log(url);
     // load article content.
     $.ajax({
         url: url,
