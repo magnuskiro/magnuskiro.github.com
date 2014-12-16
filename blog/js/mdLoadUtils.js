@@ -5,10 +5,14 @@
 // define markdown converter.
 var converter = new Markdown.Converter();
 // define base location for markdown content / articles.
-var baseLocation='file:///home/kiro/repos/magnuskiro.github.com/blog/articles/';   // works.
-// uncomment for prod
-//var baseLocation='http://magnuskiro.no/home/blog/articles/';   // works.
 
+// uncomment for prod
+var baseLocation = "";
+if(location.href.indexOf("magnuskiro.no") > -1){
+    baseLocation='http://magnuskiro.no/home/blog/articles/';   // works.
+} else{
+    baseLocation='file:///home/kiro/repos/magnuskiro.github.com/blog/articles/';   // works.
+}
 
 function createMDmenu(articles){
     var doc = document.getElementById("md-menu");
