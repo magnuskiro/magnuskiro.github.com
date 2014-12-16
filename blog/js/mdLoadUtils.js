@@ -5,9 +5,9 @@
 // define markdown converter.
 var converter = new Markdown.Converter();
 // define base location for markdown content / articles.
-//var baseLocation='file:///home/kiro/repos/magnuskiro.github.com/blog/articles/';   // works.
+var baseLocation='file:///home/kiro/repos/magnuskiro.github.com/blog/articles/';   // works.
 // uncomment for prod
-var baseLocation='http://magnuskiro.no/home/blog/articles/';   // works.
+//var baseLocation='http://magnuskiro.no/home/blog/articles/';   // works.
 
 
 function createMDmenu(articles){
@@ -28,21 +28,22 @@ function capitaliseFirstLetter(string){
 
 // example: loadMD('articles/ingredients.md', '#sub-content');
 function loadMD(file, tag){
-    var loc = location.href;
-    //console.log(typeof loc);
-    if(loc.indexOf("#") > -1){
-        loc = loc.split('#')[0];
-    }
-    //console.log(loc);
-
-    if(file === ""){
+    var loc = location.href.split('#')[0];
+    //console.log("a"+ typeof loc);
+    if(file){
+        //console.log("b"+ file);
+    }else if(location.href.indexOf("#") > -1){
+        file = location.href.split('#')[1];
+        //console.log("c"+ file);
+    }else if(file === undefined || file === ''){
         file = "missionStatement";
+        //console.log("d"+ file);
     }
-    //console.log(loc+"#"+file);
+    //console.log("f"+ loc+"#"+file);
     location.href = loc+"#"+file;
 
     var url = baseLocation+file+".md";
-    //console.log(url);
+    //console.log("e"+ url);
     // load article content.
     $.ajax({
         url: url,
