@@ -1,0 +1,9 @@
+<div>
+
+<h1>Blog Reborn</h1>
+
+I have rewritten the old shitty blog to something simpler.
+Static pages, served by php. I considered perl, 
+but would have had to ticle mod_perl i apache which I didn't bother to do.
+
+</div>

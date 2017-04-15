@@ -12,16 +12,6 @@
     <!-- Bootstrap core CSS -->
     <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="view/style/style.css" rel="stylesheet">
-    <!-- TODO fix feedback html and script -->
-    <script>
-        function showFeedback(){
-            alert("This is a test");
-        }
-        function redirectHome(){
-            window.location="http://magnuskiro.no";
-        }
-    </script>
-
 </head>
 
 <body>
@@ -31,19 +21,14 @@
         <div class="navbar-header">
 
             <a id="mylogo" target="" class="navbar-brand"
-               href="http://magnuskiro.no">~$</a>
+               href="https://magnuskiro.no">~$</a>
         </div>
         <div class="navbar-default">
             <ul class="nav navbar-nav">
-                <li class="active">
-                    <a target="" href="/">MagnusKiro.no</a></li>
-                <li>
-                    <a target="" href="blog/blog.html">Blogg</a></li>
-
+                <li><a href="blog">Blogg</a></li>
             </ul>
         </div><!--/.nav-collapse -->
         <div class="navbar-right">
-            <!-- TODO fix new icon. -->
             <a target="" href="mailto:magnuskiro@gmail.com">
                 <img class="lefticon" src="view/style/images/mail-icon.png">
             </a>
@@ -191,7 +176,7 @@
     <hr>
 
     <footer>
-        <p>&copy; Magnus Kirø - 2014</p>
+        <p>Magnus Kirø &copy; 2014 - <?php echo date("Y"); ?></p>
     </footer>
 </div> <!-- /container -->
 
@@ -202,19 +187,8 @@
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
-<!-- google analytics -->
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-47865326-1', 'magnuskiro.no');
-    ga('send', 'pageview');
-
-</script>
+<?PHP include "google_analytics.php" ?>
 
 </body>
 </html>
-
 
