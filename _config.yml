@@ -1,8 +1,7 @@
 theme: jekyll-theme-minimal
-title: [Home]
-description: [description
-<br />
--menu item
+title: [~$]
+description: [Personal Homepage
+
 <br />
 -menu item
 <br />
@@ -16,4 +15,4 @@ description: [description
 <br />
 ]
 
-google_analytics: [tracking code]
+google_analytics: [UA-47865326-1]
