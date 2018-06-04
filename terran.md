@@ -9,7 +9,3 @@ A beauty to behold, and a tyrrant to tear down.
 * [Rules of Speaking](#/blog/rules_of_speaking)
 * [Name of blogpost](#/blog/first)
 
-# Latest Insight
-{% include blog/rules_of_speaking.md %}
-
-
