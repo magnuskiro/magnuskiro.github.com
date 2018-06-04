@@ -1,4 +1,6 @@
 # Rules of Speaking
+[2018-06-04]
+
 - Admit your faults, failures, and mistakes. Admit when you are wrong. 
 - Speak the truth, or at least don’t lie.
 - Be precise

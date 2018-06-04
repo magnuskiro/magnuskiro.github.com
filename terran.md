@@ -6,6 +6,6 @@ Atrocious monsters, and loved companions through life.
 A beauty to behold, and a tyrrant to tear down.
 
 # Posts / Thoughts
-* [Rules of Speaking](#/blog/rules_of_speaking)
-* [Name of blogpost](#/blog/first)
+* [Rules of Speaking](/blog/rules_of_speaking)
+* [Name of blogpost](/blog/first)
 
