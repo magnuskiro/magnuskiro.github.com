@@ -19,7 +19,7 @@ site.github.build_revision | relative_url }}">
         <a href="{{ site.github.url }}"> <h1>{{ site.title | default:
 site.github.repository_name }}</h1> </a>
         <p>{{ site.description }}</p>
-        <p>{{ site.menu }}</p>
+        <p>{% include menu.html }</p>
         
       </header>
       <section>
