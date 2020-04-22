@@ -1,5 +1,9 @@
 # Evaluating CICD solutions
 
+The gut feeling of choice is github or Jenkins. 
+
+I might be biased in the matter, so take this with a pinch of salt. 
+
 ## Bitbucket
 Cloud and on-prem server. 
 Cloud has pipeline functionality, this is lacking on the on-prem server.
@@ -8,4 +12,33 @@ Self-hosted build agents are missing.
 By looking at the bitbucket web pages for iformation there is little that
 suggests that self-hosted is viable for the future. Compared to the little I
 know about github self-hosted capabilities Bitbucket becomes nearly uselsss.
-(I might be boiased in the matter, so take this with a pinch of salt.) 
+
+## Jenkins
+
+You need more tools with this one. Here we have a case of FOSS with it's do oen
+thing and that one thing good. 
+
+This specialisation might not be what everyone wants. And it can leave a mess
+of other systems you have to manage besides this one.
+
+## Github
+Has cool integrations between onprem and cloud. Nearly the same functionality
+in both. Connection between them makes it nice. 
+
+Github Packages are not up to snuff. As far as I have heard there are issues
+with the package repos and build system configs such as maven and nuget. 
+
+Github also bought NPM, yay for js devs.
+
+## Concourse
+
+## Azure DevOps
+I'm no fan of the repos and UI. It's a struggle to find repos and in general
+getting an overview of what is where.
+
+The repos in themselves are git, so that works OK. The pipelines are also nice.
+And the integration to azure is good. If you need it.
+
+But as microsoft ha bought Github, what do we think will happen to azure
+devops? I'm not sure it will exist in a couple of years. Why support two
+competing products when one is wastly more used and loved by developers?
