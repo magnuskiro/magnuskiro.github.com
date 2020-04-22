@@ -1,5 +1,7 @@
 # The art of communication
 
+Thoughts after and while reading the book "The art of communicating" by Thich
+Nhat Hanh.
 
 ## On communicating about your suffering 
 
