@@ -4,4 +4,14 @@ magnuskiro.no
 Personal web page: http://magnuskiro.no
 
 
-Simple html page with bootstrap styling and angular js control.
+## Highlights: 
+
+TODO: include latest posts here
+
+post 1
+
+post 2
+
+post 3
+
+
