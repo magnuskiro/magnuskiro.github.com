@@ -13,6 +13,11 @@ By looking at the bitbucket web pages for iformation there is little that
 suggests that self-hosted is viable for the future. Compared to the little I
 know about github self-hosted capabilities Bitbucket becomes nearly uselsss.
 
+Pipelien build minutes are qutie expensive.
+$10 per 1000 minutes easily gives you a cost of $6k/month
+100 repost => 10 builds/repo/day => 7.5min/build => 7500 build minuts =>
+$80/day => 20days/month => $1600/month.
+
 ## Jenkins
 
 You need more tools with this one. Here we have a case of FOSS with it's do oen
@@ -29,6 +34,9 @@ Github Packages are not up to snuff. As far as I have heard there are issues
 with the package repos and build system configs such as maven and nuget. 
 
 Github also bought NPM, yay for js devs.
+
+Github actions cost is 0.008 per build minute. Compared to bitbucket this gives
+us a rough estimate: 7500 minutes per day => $60/day => $1200/month
 
 ## Concourse
 
