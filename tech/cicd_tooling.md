@@ -4,7 +4,7 @@ The gut feeling of choice is github or Jenkins.
 
 I might be biased in the matter, so take this with a pinch of salt. 
 
-# General word definitions
+## General word definitions
 In general the words used can be confusing. So keep it precise. It's important
 that everyone involved understands the conversation.
 
