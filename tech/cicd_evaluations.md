@@ -4,6 +4,18 @@ The gut feeling of choice is github or Jenkins.
 
 I might be biased in the matter, so take this with a pinch of salt. 
 
+# General word definitions
+In general the words used can be confusing. So keep it precise. It's important
+that everyone involved understands the conversation.
+
+* Jobs: the entity that defines what to run.
+* Pipeline definition: the template or core definition of common steps/tasks to execute.
+* Pipeline: each instance of the pipeline definition. This typically has some
+specific settings.
+* Actions: github uses actions instead of jobs/pipelines. Actions can consist of
+multiple steps/tasks.
+
+
 ## Bitbucket
 Cloud and on-prem server. 
 Cloud has pipeline functionality, this is lacking on the on-prem server.
@@ -39,13 +51,23 @@ Github actions cost is 0.008 per build minute. Compared to bitbucket this gives
 us a rough estimate: 7500 minutes per day => $60/day => $1200/month
 
 ## Concourse
+Concourse is a "continuous task doer". That's it. Nothing around it. As far as
+I can tell. Which means that parameters have to be defined in the pipeline
+definitions externally, typically in a repo, or set by a 3rd party tool such as Jira or Fly. 
+
+Fly, the command line tool that follows concourse is such an external tool for
+interacting with jobs in concourse. 
+
+It becomes challenging for me to see how you can trigger a build/run for a
+specific branch in a specific repository when you have a piepline library to
+reduce the amount of pipeline definitions.
 
 ## Azure DevOps
 I'm no fan of the repos and UI. It's a struggle to find repos and in general
 getting an overview of what is where.
 
-The repos in themselves are git, so that works OK. The pipelines are also nice.
-And the integration to azure is good. If you need it.
+The repos in themselves are git, so that's OK. The pipelines are also nice, yml
+definitions. And the integration to azure is good. If you need it.
 
 But as microsoft ha bought Github, what do we think will happen to azure
 devops? I'm not sure it will exist in a couple of years. Why support two
