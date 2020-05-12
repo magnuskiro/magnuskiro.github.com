@@ -1,24 +1,60 @@
 # Crapp to Cloud
 
-Oh, yes, this is work in progress. But experience needs to be told.
+WIP 
 
-Yes we have a lot of old legazy crapp. We were at a stage where morale was at a lowpoint. And despair was at a high. That's when people were fed up, and start shovle the crapp.
-So that's what we are going to do. Because there are nobody else to do it.
+Do you have a lot of old legazy crapp?
+Are you at a stage where morale is low and despair is high. 
+That's when people are fed up, and start shovling the crapp.
+So that's what people do. Because there are nobody else to do it.
 That's what responsible people in organisations with responsibilities do. 
 
-# More background
+They start moving in a direction. To get movement. Like your car stuck in the
+mud. Rock it back and forth to get tracktion. Try to get your footing back so
+you can move forwards.
 
-Timeline
-History
-Culture
+# Some interesting aspects to consider.
+
+Timeline - What would you like this to be completed?
+History - What have you tried before? Which experiences can you learn from?
+Culture - Is you organisation ready? Eager? And which approach should your org
+take?
 
 # The plan
 
-What do we have?
-Let's think.
-Ignorance if bliss!
+The basic lift and shift plan is to "just move everything". Then you figure out
+thats quite difficult. So you start to analyse the situation you have. 
+Actually looking at the crapp you have in your garage and how old your lawn
+mower is... that's and ugly truth nobody want to talk about.
 
-GET THE SHOVELS!
+Somethimes I think the basics are: 
+* What do we have?
+* Let's think.
+* Ignorance if bliss!
+* GET THE SHOVELS!
+
+The you start diggin your way into a ditch of a pigration that will take
+forever. Did you do the good old traditional project management approach? 
+Funtimes for the spreadsheet guru! But when does that make things move?
+
+# Visibility
+
+Share progress and be transparent. 
+
+
 
 # Results?
+Time passes and people move on. The resuls are what they are. But in my
+experience not good. Early adoption on small things are best. 
+Get in get experience. Get value. Then get compliance. Rome was not buildt in
+one day. Probably the first 300 years was spend figuring out there the entrance
+was. Then buildings formed. 
+
+What I'm saying is that it takes a lot of time to build competence. And while
+you do that you need to have return on your investments, aka get the value out
+fast! Figuring out how the cloud will give you value is the most important
+thing. Then you can focus on getting that value out of it. All the other
+details will subordinate under the value goal.
+
+# Where is the quick win? 
+In the lining. Keep compliance at bay so that you can move the tech stuff. 
 
