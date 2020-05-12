@@ -1,17 +1,10 @@
-magnuskiro.no
-=====================
+# Me?
 
-Personal web page: http://magnuskiro.no
+I'm a geek turned business interested.
+I do IT and LAN parties.
+I'm a handyman, fixing my house. 
+I'm passionate about leadership and Technology!
 
+I try do focus my writing about technology... but I digress into other
+interesting things. 
 
-## Highlights: 
-
-TODO: include latest posts here
-
-post 1
-
-post 2
-
-post 3
-
- Testing
