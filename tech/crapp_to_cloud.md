@@ -24,7 +24,7 @@ take?
 The basic lift and shift plan is to "just move everything". Then you figure out
 thats quite difficult. So you start to analyse the situation you have. 
 Actually looking at the crapp you have in your garage and how old your lawn
-mower is... that's and ugly truth nobody want to talk about.
+mower is... that's an ugly truth nobody want to talk about.
 
 Somethimes I think the basics are: 
 * What do we have?
