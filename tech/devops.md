@@ -4,6 +4,6 @@ Why and what's what?
 
 ## The general problem 
 
-## Components of devops
+## Components of DevOps
 
 

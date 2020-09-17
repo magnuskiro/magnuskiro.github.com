@@ -16,4 +16,4 @@ I write to deal with impressions of the world.
 I write to promote tech.
 I write to solve tech problems. 
 I write to improve my leadership.
-I write to improve devops, platforms and infrastructure.
+I write to improve DevOps, platforms and infrastructure.

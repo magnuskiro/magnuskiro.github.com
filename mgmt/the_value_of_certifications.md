@@ -15,7 +15,7 @@ It's also good for frame agreements. If you can show off your set of skilled
 labourers then it's easier to get more business. And groom for the bigger
 contracts. 
 
-In essense certifications are an entry level thing. An introduction to the
+In essence certifications are an entry level thing. An introduction to the
 elements of that sub area of expertise. Then you need to build the hands on
 experience. (unless you're a potato:)
 
@@ -34,7 +34,7 @@ wrong ones, or too many in one direction might cause people to look elsewhere
 for their expertise. The idea being that having certifications in the wrong
 areas says a lot about where you spend your time.
 
-Further more the time spending might be way off if the candidate dosn't have
+Further more the time spending might be way off if the candidate doesn't have
 any hands on experience. Nothing beats the hard earned combat knowledge.
 Knowing the quirks of the game and having the gut feeling always beats the
 glorious certifications. 

@@ -5,17 +5,17 @@ Personally I'm fed up with it. 6 weeks of home office is enough.
 
 There are consequences we need to deal with. People die all the time, and that's
 life. What we need to deal with it and reduce the collateral damage. 
-Collateral being economic, psychological, and othervise. 
+Collateral being economic, psychological, and otherwise. 
 
 Government calculates the price of a life. How is the calculations then? 
 Are the list lives worth the cost for other people? How many lost years of life
-are we talking about? For the dying, and the currecntly living which will live
+are we talking about? For the dying, and the currently living which will live
 shorter? 
 
 Who actually bears the cost? It's close to impossible to say or know for sure.
-I'm afraid it will be the weakes in society. Those currently out of a job.
+I'm afraid it will be the weeks in society. Those currently out of a job.
 Those who now struggle to live and make ends meet. Those who now loose income
-potential. Loosing those possibilities they might othervise have had.
+potential. Loosing those possibilities they might otherwise have had.
 
 Anyways, there is nobody to blame. Just make the best out of it. Having a
 safety net of the social democracy and it's institutions is a saviour for many.

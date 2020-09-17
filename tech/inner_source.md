@@ -1,6 +1,6 @@
 # Inner source
 
-The way of thinking open source internally in organisations. And what benefits
+The way of thinking open source internally in organizations. And what benefits
 we can get out of it.
 
 It's a mindset change with great benefits. 

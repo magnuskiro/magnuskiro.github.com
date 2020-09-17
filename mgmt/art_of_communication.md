@@ -5,8 +5,7 @@ Nhat Hanh.
 
 ## On communicating about your suffering 
 
-When I'm suffering I find it challenging to communicate in a positive an
-dloving manner. My inner dialogue portrays others as cultprits and wrong doers.
+When I'm suffering I find it challenging to communicate in a positive and loving manner. My inner dialogue portrays others as culprits and wrong doers.
 I's a tiering conversation. It's very easy for the negativity to sneak in. It's
 easy to know that this negativity is not real.
 
@@ -15,7 +14,7 @@ the blame game starts I know it's not right. If I blame others there might be
 something wrong with me. Se we, me and myself, figure out why this thing
 bothers me before we blame anyone. This process takes time.
 
-Loving self communication is the start of good communicaiton with others. If
+Loving self communication is the start of good communication with others. If
 you can communicate well with yourself you can communicate well with others.
 
 The book is about communicating the truth in a good way. When you suffer you

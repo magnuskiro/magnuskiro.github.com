@@ -17,8 +17,8 @@ might be a pain in your arse. Thus we need to adopt the mindset of openness to
 the fact that the other part of a conversation always know something you
 yourself don’t know. 
 
-Recognising that body language and pitch of voice matters a whole lot. Some
-litterature, [need reference here], suggests that body language is about 60% of
+Recognizing that body language and pitch of voice matters a whole lot. Some
+literature, [need reference here], suggests that body language is about 60% of
 the communication, and tone, pitch and volume of the voice consists of around
 30% of the communication. This leaves about 7% of the communication to the words
 of choice. Considering this, text messages and chat becomes a seriously bad

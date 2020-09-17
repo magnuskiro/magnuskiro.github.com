@@ -19,10 +19,10 @@ Have it clean.
 - And connect your phone! It's so nice to send messages and read notifications from your computer.
 
 ## Tools ?
-* package manager: winget or chocolaty. Now I prefer winget.
+* package manager: `winget` or chocolaty. Now I prefer `winget`.
 * chrome
 * Linux subsystem for windows.
-* Developer tools: dotnet, maven, java, vs code, git, docker, etc... all installed with winget or chocolaty
+* Developer tools: dotnet, maven, java, vs code, git, docker, etc... all installed with `winget` or chocolaty
 * Steam? - some gaming happens now and then!
 
 ## Git Bash Configuration: 

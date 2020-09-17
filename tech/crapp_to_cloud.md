@@ -1,15 +1,15 @@
-# Crapp to Cloud
+# Crap to Cloud
 
 WIP 
 
-Do you have a lot of old legazy crapp?
+Do you have a lot of old legacy crap?
 Are you at a stage where morale is low and despair is high. 
-That's when people are fed up, and start shovling the crapp.
+That's when people are fed up, and start shoveling the crap.
 So that's what people do. Because there are nobody else to do it.
 That's what responsible people in organisations with responsibilities do. 
 
 They start moving in a direction. To get movement. Like your car stuck in the
-mud. Rock it back and forth to get tracktion. Try to get your footing back so
+mud. Rock it back and forth to get traction. Try to get your footing back so
 you can move forwards.
 
 # Some interesting aspects to consider.
@@ -23,18 +23,18 @@ take?
 
 The basic lift and shift plan is to "just move everything". Then you figure out
 thats quite difficult. So you start to analyse the situation you have. 
-Actually looking at the crapp you have in your garage and how old your lawn
+Actually looking at the crap you have in your garage and how old your lawn
 mower is... that's an ugly truth nobody want to talk about.
 
-Somethimes I think the basics are: 
+Sometimes I think the basics are: 
 * What do we have?
 * Let's think.
 * Ignorance if bliss!
 * GET THE SHOVELS!
 
-The you start diggin your way into a ditch of a pigration that will take
+The you start digging your way into a ditch. Digging in a digression that will take
 forever. Did you do the good old traditional project management approach? 
-Funtimes for the spreadsheet guru! But when does that make things move?
+Fun times for the spreadsheet guru! But when did that ever put things in motion?
 
 # Visibility
 
@@ -43,9 +43,9 @@ Share progress and be transparent.
 
 
 # Results?
-Time passes and people move on. The resuls are what they are. But in my
+Time passes and people move on. The result are what they are. But in my
 experience not good. Early adoption on small things are best. 
-Get in get experience. Get value. Then get compliance. Rome was not buildt in
+Get in get experience. Get value. Then get compliance. Rome was not built in
 one day. Probably the first 300 years was spend figuring out there the entrance
 was. Then buildings formed. 
 

@@ -8,7 +8,7 @@ In the same category as Ansible, Terraform, ARM templates, Cloudformation etc.
 An alternative to terraform.
 
 Infrastructure as code. Creating manifest.yml file to define the resources and
-environment you want to spinn up. Using all the cloud vendors or onprem/vSphere
+environment you want to spin up. Using all the cloud vendors or on-prem/vSphere
 as a platform for running VMs etc. 
 
 # CFCR: Cloud Foundry Container Runtime

@@ -21,13 +21,13 @@ Cloud and on-prem server.
 Cloud has pipeline functionality, this is lacking on the on-prem server.
 Self-hosted build agents are missing.
 
-By looking at the bitbucket web pages for iformation there is little that
+By looking at the bitbucket web pages for information there is little that
 suggests that self-hosted is viable for the future. Compared to the little I
-know about github self-hosted capabilities Bitbucket becomes nearly uselsss.
+know about github self-hosted capabilities Bitbucket becomes nearly useless.
 
-Pipelien build minutes are qutie expensive.
+Pipeline build minutes are quite expensive.
 $10 per 1000 minutes easily gives you a cost of $6k/month
-100 repost => 10 builds/repo/day => 7.5min/build => 7500 build minuts =>
+100 repos => 10 builds/repo/day => 7.5min/build => 7500 build minutes =>
 $80/day => 20days/month => $1600/month.
 
 ## Jenkins
@@ -35,11 +35,11 @@ $80/day => 20days/month => $1600/month.
 You need more tools with this one. Here we have a case of FOSS with it's do oen
 thing and that one thing good. 
 
-This specialisation might not be what everyone wants. And it can leave a mess
+This specialization might not be what everyone wants. And it can leave a mess
 of other systems you have to manage besides this one.
 
 ## Github
-Has cool integrations between onprem and cloud. Nearly the same functionality
+Has cool integrations between on-prem and cloud. Nearly the same functionality
 in both. Connection between them makes it nice. 
 
 Github Packages are not up to snuff. As far as I have heard there are issues
@@ -59,7 +59,7 @@ Fly, the command line tool that follows concourse is such an external tool for
 interacting with jobs in concourse. 
 
 It becomes challenging for me to see how you can trigger a build/run for a
-specific branch in a specific repository when you have a piepline library to
+specific branch in a specific repository when you have a pipeline library to
 reduce the amount of pipeline definitions.
 
 ## Azure DevOps
@@ -70,5 +70,5 @@ The repos in themselves are git, so that's OK. The pipelines are also nice, yml
 definitions. And the integration to azure is good. If you need it.
 
 But as microsoft ha bought Github, what do we think will happen to azure
-devops? I'm not sure it will exist in a couple of years. Why support two
-competing products when one is wastly more used and loved by developers?
+DevOps? I'm not sure it will exist in a couple of years. Why support two
+competing products when one is vastly more used and loved by developers?

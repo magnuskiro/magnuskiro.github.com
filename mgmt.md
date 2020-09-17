@@ -1,4 +1,4 @@
-# Leadership and management category of blig posts
+# Leadership and management category of blog posts
 
 Category to discuss and ramble about all leadership aspects.
 Such as style, communication, skills, networking etc.
