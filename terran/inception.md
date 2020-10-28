@@ -16,4 +16,9 @@ I write to deal with impressions of the world.
 I write to promote tech.
 I write to solve tech problems. 
 I write to improve my leadership.
-I write to improve DevOps, platforms and infrastructure.
+I write to learn about DevOps, platforms and infrastructure, among other things.
+
+## Legs to walk on?
+Sort of. As I was pushed towards becoming an MVP I need to blog some stuff.
+So that's what I'm doing. Good times. It's nice to write about your experiences.
+It needs to be more hands on tech/DevOps though...
