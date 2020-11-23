@@ -31,9 +31,9 @@ Every problem is a people problem...
 Go back to your roots of developer knowledge. The tried and tested mentalities and techniques will get you there in the end.
 
 Mainly:
-1: be analytical - think things through
-2: print(something?) - step through the code. 
-3: talk to someone! - at least do some rubber ducking.
+- be analytical - think things through
+- print(something?) - step through the code. 
+- talk to someone! - at least do some rubber ducking.
 
 ## Have a motto
 I have a motto. That really helps!
