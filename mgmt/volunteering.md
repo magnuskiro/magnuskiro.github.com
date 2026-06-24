@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Volunteer work"
+---
+
 # Volunteer work
 
 I'm engaged in organizing two LAN parties. It's cool. It's giving. And shows good

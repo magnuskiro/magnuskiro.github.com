@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Corona - Covid 19"
+---
+
 # Corona - Covid 19
 
 The virus we talk about these days. Fun times.

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Evaluating CICD solutions"
+---
+
 # Evaluating CICD solutions
 
 The gut feeling of choice is github or Jenkins. 

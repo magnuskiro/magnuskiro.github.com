@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Crap to Cloud"
+---
+
 # Crap to Cloud
 
 WIP 

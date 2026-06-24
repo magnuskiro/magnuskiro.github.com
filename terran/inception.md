@@ -1,3 +1,8 @@
+---
+layout: default
+title: "There be blog?"
+---
+
 # There be blog?
 
 Yes there might be a blog.

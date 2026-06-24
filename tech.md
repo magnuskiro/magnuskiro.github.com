@@ -1,17 +1,14 @@
-# Tech category
+---
+layout: default
+title: "Tech category"
+---
+# Tech Category
 
-## Why write about tech 
-Tech is my daily business. It's what I do.
-In essence I'm interested in making tech deliver the value it promises. 
-This means diving deep into the depths of shitty and complicated code. And soaring high in the skies to see the trends in the landscape. And dipping my toes into management of tech people. 
+Tech is my daily business. It's what I do. In essence, I'm interested in making technology deliver the value it promises. 
 
-## How I write about tech
+This means diving deep into the depths of code, soaring high to see landscape trends, and building solid platform engineering and DevOps practices.
 
-
-## What I write about tech
-
-
-## list of tech topics
-- Cloud: Azure mostly
-- DevOps: methodology and the technical aspects
-- Management(mgmt): How to create the best possible environment for tech people to be in.
+Here I write about:
+- **Cloud & Infrastructure:** Hands-on experience with Azure, automation, and solution architecture.
+- **DevOps & Platform Engineering:** CI/CD tooling, Git workflows, and methodology.
+- **Inner Source:** Bringing open-source development practices inside organizations.

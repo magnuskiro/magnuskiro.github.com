@@ -1,3 +1,8 @@
+---
+layout: default
+title: "DevOps"
+---
+
 # DevOps 
 
 Why and what's what?

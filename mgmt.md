@@ -1,7 +1,12 @@
-# Leadership and management category of blog posts
+---
+layout: default
+title: "Management & Leadership"
+---
+# Management & Leadership
 
-Category to discuss and ramble about all leadership aspects.
-Such as style, communication, skills, networking etc.
+Thoughts, reflections, and lessons learned about leadership, team building, and professional development.
 
-Most of which can be found in self help books, but which you never will be good
-at if you don't try and work hard on it.
+In my writing, I focus on:
+- **Team Dynamics:** Creating the best possible environment for engineering teams to thrive.
+- **Communication:** The art of alignment, active listening, and clear collaboration.
+- **Continuous Learning:** The practical value of certifications and self-improvement, beyond the theoretical text.

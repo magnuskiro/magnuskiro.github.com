@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Color Palette (Light Mode Default) */
+  --bg-color: #f8fafc;
+  --panel-bg: #ffffff;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --accent-color: #2563eb;
+  --accent-hover: #1d4ed8;
+  --border-color: #e2e8f0;
+  --code-bg: #f1f5f9;
+  --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #0f172a;
+    --panel-bg: #1e293b;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --accent-color: #3b82f6;
+    --accent-hover: #60a5fa;
+    --border-color: #334155;
+    --code-bg: #0f172a;
+    --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+  }
+}
+
+/* Global Reset & Base Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Page Layout */
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  display: flex;
+  gap: 4rem;
+}
+
+/* Header/Sidebar Styling */
+header {
+  width: 260px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 4rem;
+  height: fit-content;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+header a:hover h1 {
+  color: var(--accent-color);
+}
+
+header p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+/* Sidebar Menu styling */
+header p strong {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header a[href] {
+  color: var(--text-secondary);
+  display: inline-block;
+  padding: 0.2rem 0;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+header a[href]:hover {
+  color: var(--accent-color);
+  transform: translateX(4px);
+}
+
+/* Main Content Area */
+section {
+  flex-grow: 1;
+  background-color: var(--panel-bg);
+  border: 1px solid var(--border-color);
+  padding: 3rem;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+}
+
+/* Typography elements */
+section h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.75rem;
+  letter-spacing: -0.03em;
+  color: var(--text-primary);
+}
+
+section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2.5rem 0 1rem 0;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+section h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1.8rem 0 0.75rem 0;
+  color: var(--text-primary);
+}
+
+section p {
+  margin-bottom: 1.25rem;
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+}
+
+section ul, section ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  color: var(--text-secondary);
+}
+
+section li {
+  margin-bottom: 0.5rem;
+}
+
+section a {
+  color: var(--accent-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+section a:hover {
+  color: var(--accent-hover);
+  border-bottom-color: var(--accent-hover);
+}
+
+/* Code block styles */
+code, pre {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  border-radius: 8px;
+}
+
+code {
+  background-color: var(--code-bg);
+  color: var(--accent-color);
+  padding: 0.2rem 0.4rem;
+}
+
+pre {
+  background-color: var(--code-bg);
+  padding: 1.25rem;
+  overflow-x: auto;
+  border: 1px solid var(--border-color);
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+pre code {
+  background-color: transparent;
+  color: var(--text-primary);
+  padding: 0;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 4rem;
+  border-top: 1px solid var(--border-color);
+  padding-top: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+}
+
+footer a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 860px) {
+  .wrapper {
+    flex-direction: column;
+    padding: 3rem 1.5rem;
+    gap: 3rem;
+  }
+  
+  header {
+    width: 100%;
+    position: static;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+}

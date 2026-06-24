@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Security tools"
+---
+
 # Security tools
 
 Definitely needed stuff. 

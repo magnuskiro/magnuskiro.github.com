@@ -1,18 +1,33 @@
-<p><a href="/tech">Tech</a><br />
-    &rsaquo; <a href="/tech/github_actions-setenv-deprecation">Github Actions set-env deprecation</a><br />
-    &rsaquo; <a href="/tech/swift+vapor-initial-contact">Swift initial contact</a><br />
-    &rsaquo; <a href="/tech/laptop_initiation">Fresh laptop setup</a><br />
-    &rsaquo; <a href="/tech/cicd_tooling">CICD tooling</a><br />
-    &rsaquo; <a href="/tech/crapp_to_cloud">Crapp to Cloud</a><br />
+{% assign sorted_pages = site.pages | sort: "title" %}
+
+<p>
+  <a href="{{ '/tech' | relative_url }}"><strong>Tech</strong></a><br />
+  {% for p in sorted_pages %}
+    {% if p.path contains 'tech/' %}
+      &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
+    {% endif %}
+  {% endfor %}
 </p>
-<p><a href="/mgmt">Management</a><br />
-    &rsaquo; <a href="/mgmt/volunteering">Volunteering</a><br />
-    &rsaquo; <a href="/mgmt/art_of_communication">Art of Communication</a><br />
-    &rsaquo; <a href="/mgmt/the_value_of_certifications">Value of Certifications</a><br />
+
+<p>
+  <a href="{{ '/mgmt' | relative_url }}"><strong>Management</strong></a><br />
+  {% for p in sorted_pages %}
+    {% if p.path contains 'mgmt/' %}
+      &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
+    {% endif %}
+  {% endfor %}
 </p>
-<p><a href="/terran">Terran</a><br/>
-    &rsaquo; <a href="/terran/covid_19">Covid-19</a><br/>
-    &rsaquo; <a href="/terran/inception">Inception</a><br/>
+
+<p>
+  <a href="{{ '/terran' | relative_url }}"><strong>Terran</strong></a><br />
+  {% for p in sorted_pages %}
+    {% if p.path contains 'terran/' %}
+      &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
+    {% endif %}
+  {% endfor %}
 </p>
-<p><a href="https://linkedin.com/in/magnuskiro">CV - Linkedin</a>
+
+<p>
+  <a href="https://linkedin.com/in/magnuskiro"><strong>CV - Linkedin</strong></a>
 </p>
+

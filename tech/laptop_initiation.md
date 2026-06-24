@@ -1,3 +1,8 @@
+---
+layout: default
+title: "So what to do when you have a fresh laptop?"
+---
+
 # So what to do when you have a fresh laptop?
 
 Really choose a good computer as well.

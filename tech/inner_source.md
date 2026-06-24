@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Inner source"
+---
+
 # Inner source
 
 The way of thinking open source internally in organizations. And what benefits

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Cloud Foundry"
+---
+
 # Cloud Foundry
 
 WIP

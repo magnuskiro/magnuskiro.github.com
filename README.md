@@ -1,10 +1,8 @@
-# Me?
+# About Me
 
-I'm a geek turned business interested.
-I do IT and LAN parties.
-I'm a handyman, fixing my house. 
-I'm passionate about leadership and Technology!
+I'm a technology enthusiast with a passion for business strategy, leadership, and hands-on engineering.
+I do IT, DevOps, solution architecture, and host LAN parties.
+I'm also a handyman, constantly working on and improving my house. 
 
-I try do focus my writing about technology... but I digress into other
-interesting things. 
+I try to focus my writing on technology, but I occasionally digress into other interesting aspects of life, leadership, and humanity. 
 

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Rules of Speaking"
+---
+
 # Rules of Speaking
 [2018-06-04]
 

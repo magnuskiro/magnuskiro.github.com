@@ -1,3 +1,8 @@
+---
+layout: default
+title: "The value of certifications"
+---
+
 # The value of certifications
 
 The prestige and basic competency of certifications is a thing of discussion.

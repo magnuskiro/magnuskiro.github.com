@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Initial contact with Swift + Vapor"
+---
+
 # Initial contact with Swift + Vapor
 Notes of taking over a 3 year old business critical swift project.
 
