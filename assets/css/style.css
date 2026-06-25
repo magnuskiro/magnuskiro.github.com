@@ -246,3 +246,76 @@ footer a:hover {
     padding: 2rem;
   }
 }
+
+/* Project Cards and Portfolio Grid */
+.project-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  border: 1px solid var(--border-color);
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: var(--panel-bg);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+  border-color: var(--accent-color);
+}
+
+.project-card h3 {
+  margin-top: 0 !important;
+  font-size: 1.4rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.project-card .project-date {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-weight: 400;
+  background-color: var(--code-bg);
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+.project-card .project-company {
+  font-size: 1.1rem;
+  color: var(--accent-color);
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.project-card .project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.project-card .tag {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  background-color: var(--code-bg);
+  color: var(--text-secondary);
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+}

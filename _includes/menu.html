@@ -1,6 +1,12 @@
 {% assign sorted_pages = site.pages | sort: "title" %}
 
 <p>
+  <a href="{{ '/' | relative_url }}"><strong>Home</strong></a><br />
+  <a href="{{ '/cv' | relative_url }}"><strong>CV</strong></a><br />
+  <a href="{{ '/projects' | relative_url }}"><strong>Projects</strong></a>
+</p>
+
+<p>
   <a href="{{ '/tech' | relative_url }}"><strong>Tech</strong></a><br />
   {% for p in sorted_pages %}
     {% if p.path contains 'tech/' %}

@@ -1,8 +1,20 @@
-# About Me
+# Velkommen / Welcome!
 
-I'm a technology enthusiast with a passion for business strategy, leadership, and hands-on engineering.
-I do IT, DevOps, solution architecture, and host LAN parties.
-I'm also a handyman, constantly working on and improving my house. 
+I'm Magnus Kirø, a Senior DevOps Consultant, Cloud/Solution Architect, and Team/Tech Lead based in Tønsberg, Norway.
 
-I try to focus my writing on technology, but I occasionally digress into other interesting aspects of life, leadership, and humanity. 
+I bridge the gap between complex software systems, cloud infrastructure, and business goals—building robust platform architectures and leading cross-functional engineering teams.
+
+### What I Do:
+*   **Platform Engineering & DevOps:** Designing automated, resilient CI/CD pipelines, container runtime platforms (Kubernetes), and developer self-service tooling.
+*   **Cloud Architecture:** Designing and deploying secure, production-grade cloud environments on Azure and AWS.
+*   **Engineering Leadership:** Guiding technical- and business strategy, managing budgets, and mentoring high-performing DevOps teams.
+
+---
+
+### Navigation:
+*   📄 Explore my professional experience: [View my CV]({{ '/cv' | relative_url }})
+*   📁 Check out my consulting assignments and community work: [View my Projects]({{ '/projects' | relative_url }})
+*   ✍️ Read my thoughts on tech and management: Explore the categories in the sidebar.
+
+Feel free to connect with me on [LinkedIn](https://linkedin.com/in/magnuskiro) or drop me an email at magnuskiro@gmail.com. 
 
