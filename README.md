@@ -12,8 +12,7 @@ I bridge the gap between complex software systems, cloud infrastructure, and bus
 ---
 
 ### Navigation:
-*   📄 Explore my professional experience: [View my CV]({{ '/cv' | relative_url }})
-*   📁 Check out my consulting assignments and community work: [View my Projects]({{ '/projects' | relative_url }})
+*   📄 Explore my professional experience & projects: [View my CV & Portfolio]({{ '/cv' | relative_url }})
 *   ✍️ Read my thoughts on tech and management: Explore the categories in the sidebar.
 
 Feel free to connect with me on [LinkedIn](https://linkedin.com/in/magnuskiro) or drop me an email at magnuskiro@gmail.com. 
