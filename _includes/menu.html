@@ -1,7 +1,25 @@
 {% assign sorted_pages = site.pages | sort: "title" %}
 
+{% if page.url == '/' or page.url == '/en/' or page.url contains '/cv/' %}
 <p>
-  <a href="{{ '/cv' | relative_url }}"><strong>CV</strong></a>
+  {% if page.url contains '/en/' %}
+    🌐 <a href="{{ page.url | replace: '/en/', '/' | relative_url }}"><strong>Norsk 🇳🇴</strong></a>
+  {% else %}
+    {% if page.url == '/' %}
+      🌐 <a href="{{ '/en/' | relative_url }}"><strong>English 🇬🇧</strong></a>
+    {% else %}
+      🌐 <a href="{{ '/en' | append: page.url | relative_url }}"><strong>English 🇬🇧</strong></a>
+    {% endif %}
+  {% endif %}
+</p>
+{% endif %}
+
+<p>
+  {% if page.url contains '/en/' %}
+    <a href="{{ '/en/cv' | relative_url }}"><strong>CV</strong></a>
+  {% else %}
+    <a href="{{ '/cv' | relative_url }}"><strong>CV</strong></a>
+  {% endif %}
 </p>
 
 <p>
