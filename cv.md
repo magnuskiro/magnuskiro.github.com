@@ -5,7 +5,7 @@ title: "CV - Magnus Kirø"
 
 # Magnus Kirø
 
-**Team/Tech Lead | DevOps Engineer | Cloud & Solution Architect**  
+**Delivery Manager | SRE | DevOps Engineer | Cloud & Solution Architect**  
 Basbergveien 10b, 3114 Tønsberg, Norway  
 📧 magnuskiro@gmail.com | 🌐 www.magnuskiro.no  
 💼 [LinkedIn Profile](https://linkedin.com/in/magnuskiro) | 🐙 [GitHub](https://github.com/magnuskiro)
@@ -13,31 +13,31 @@ Basbergveien 10b, 3114 Tønsberg, Norway
 ---
 
 ## 👨‍💻 Bakgrunn
-Magnus er en erfaren Team/Tech lead med bred erfaring fra fullstack-utvikling, cloud-infrastruktur, DevOps og Platform Engineering. Han har lang erfaring med å oversette forretningsbehov til tekniske løsninger, og samhandle med både utviklere og ikke-tekniske interessenter. De siste årene har Magnus også opparbeidet seg solid ledererfaring med budsjett-, resultat- og HR-ansvar.
+Magnus er en erfaren Delivery Manager med en sterk teknisk grunnmur innen skyplattformer, DevOps, SRE og plattformutvikling. Gjennom roller som leder for MSP-team, daglig leder og teknisk rådgiver, har han opparbeidet seg bred erfaring med strategisk leveranseoppfølging, kundeutvikling og etterlevelse (compliance).
 
-Som person er Magnus løsningsorientert, engasjert og lett å samarbeide med. Han har en bred allround-kompetanse innen skyteknologi (spesielt Azure og AWS), container-orkestrering (Kubernetes), monitorering, CI/CD-rigger, samt backend-utvikling (Java, Python, Perl).
+Han trives best i grensesnittet mellom teknologi og forretning, og bygger bro mellom komplekse tekniske leveranser og kundenes strategiske mål. Magnus er en pragmatisk pådriver som kombinerer teknisk dybde med forretningsforståelse for å levere stabile, moderne og skalerbare skyløsninger. Han er anerkjent for sin evne til å lede tverrfaglige team, håndtere interessenter og drive digital transformasjon, med et kontinuerlig fokus på verdi, sikkerhet og operasjonell effektivitet.
 
 ---
 
 ## 💼 Arbeidserfaring
 
 ### **Knowit**
-*   **Rolle:** Delivery Lead MSP Cloud & Platform Engineer  
+*   **Rolle:** Delivery Manager & Platform/SRE Specialist (MSP Cloud)  
 *   **Periode:** Oktober 2025 – Nåværende  
-*   **Fokus:** Ledelse av skyprosjekter og team (MSP Cloud Platforms), salgs- og anbudsarbeid, plattformarkitektur på AWS, samt fag- og personalansvar.
+*   **Fokus:** Ledelse av skyprosjekter, koordinering av team og MSP-leveranser på AWS. Strategisk arbeid for å bygge Knowits Managed Services for Cloud i Norge, samt anbud og rekruttering. Har også fag- og personalansvar.
 
 ### **Solidify AS**
 *   **Rolle:** Business Area Manager / DevOps & Azure Consultant  
 *   **Periode:** April 2024 – September 2025  
-*   **Fokus:** Tekniske leveranser på kundeprosjekter, salg, rekruttering og HR for det norske teamet innen DevOps, Azure og GitHub-plattformer.
-*   **Rolle:** Daglig Leder / DevOps ekspert  
+*   **Fokus:** Ledelse av teknologi innen DevOps, Azure og GitHub-plattformer. Ansvarlig for salg, HR og rekruttering for det norske teamet, parallelt med tekniske konsulentleveranser.
+*   **Rolle:** Daglig Leder / DevOps-ekspert  
 *   **Periode:** September 2022 – April 2024  
-*   **Fokus:** Etablering av Solidify i Norge, budsjett/økonomi, ressursallokering, prosjektledelse og rekruttering.
+*   **Fokus:** Etablering og oppbygging av Solidify AS i Norge, inkludert økonomistyring, HR, salg, partnerrelasjoner og prosjektledelse.
 
 ### **Dfind Direction / Dfind Consulting**
 *   **Rolle:** Sjefskonsulent / Senior Konsulent  
 *   **Periode:** April 2018 – September 2022  
-*   **Fokus:** DevOps- og skyarkitektur, fullstack-utvikling, samt bistand i store migreringsprosjekter (Gjensidige Forsikring).
+*   **Fokus:** DevOps, cloud-arkitektur, fullstack-utvikling, samt teknisk ledelse i store moderniseringsprosjekter.
 
 ### **Capgemini Norge**
 *   **Rolle:** Senior Konsulent – DevOps og Cloud  
@@ -59,11 +59,45 @@ En oversikt over mine profesjonelle konsulentoppdrag, sky-arkitekturer og utvikl
 
 <div class="project-grid">
 
+  <!-- Tet Digital -->
+  <div class="project-card">
+    <h3>SRE / Platform Engineer <span class="project-date">Jun 2026 - Pågående</span></h3>
+    <div class="project-company">Tet Digital</div>
+    <p>Tet Digital leverer kritiske reisetjenester som billettkjøp og reiseinformasjon til kollektivselskaper som Ruter, Skyss og AtB. Som SRE har jeg ansvar for plattformstabilitet og teknisk veiledning for mikrotjenestearkitekturen deres. Jeg leder arbeidet med å etablere SLI/SLO-rammeverk, forbedre overvåkning i Datadog, håndtere GraphQL-proxy/routere (Cosmo), samt bistå i migreringer fra Node til Kotlin og modernisering av Kafka-strømmer.</p>
+    <div class="project-tags">
+      <span class="tag">SRE</span>
+      <span class="tag">Kubernetes</span>
+      <span class="tag">Kotlin</span>
+      <span class="tag">Datadog</span>
+      <span class="tag">GraphQL</span>
+      <span class="tag">Kafka</span>
+      <span class="tag">Cosmo Router</span>
+      <span class="tag">Rust</span>
+      <span class="tag">Claude Code</span>
+    </div>
+  </div>
+
+  <!-- Nordic Financial Cert -->
+  <div class="project-card">
+    <h3>Delivery Manager <span class="project-date">Nov 2025 - Pågående</span></h3>
+    <div class="project-company">Nordic Financial Cert (NFCert)</div>
+    <p>NFCert opererer i et regulatorisk marked med svært strenge krav til sikkerhet og etterlevelse. Som Delivery Manager har jeg det administrative ansvaret for leveranseoppfølging, kundeutvikling og strategisk ledelse av teamet. Jeg koordinerer arbeidet med modernisering av sikkerhetsplattformen, ISO 27001 compliance-rammeverk (via Vanta), implementering av moderne IAM/SSO-løsninger og automatisering av operasjonelle sikkerhetsrutiner.</p>
+    <div class="project-tags">
+      <span class="tag">Delivery Management</span>
+      <span class="tag">Security</span>
+      <span class="tag">Compliance</span>
+      <span class="tag">ISO 27001</span>
+      <span class="tag">IAM / SSO</span>
+      <span class="tag">AWS</span>
+      <span class="tag">Kundeutvikling</span>
+    </div>
+  </div>
+
   <!-- Knowit -->
   <div class="project-card">
-    <h3>Delivery Lead MSP Cloud <span class="project-date">Okt 2025 - Pågående</span></h3>
+    <h3>Delivery Manager <span class="project-date">Okt 2025 - Pågående</span></h3>
     <div class="project-company">Knowit</div>
-    <p>Knowit tilbyr skybasert drift, migrering og optimalisering av kunders skyplattformer. Som Delivery Lead leder jeg skyprosjekter og det operative MSP-teamet i Norge, samt bidrar til anbudskonkurranser, plattformarkitektur (AWS/sovereign cloud) og strategisk salgsarbeid. Rollen innebærer både fag- og personalansvar.</p>
+    <p>Knowit tilbyr skybasert drift, migrering og optimalisering av kunders skyplattformer. Som Delivery Manager leder jeg skyprosjekter og det operative MSP-teamet i Norge, samt bidrar til anbudskonkurranser, plattformarkitektur (AWS/sovereign cloud) og strategisk salgsarbeid. Rollen innebærer både fag- og personalansvar.</p>
     <div class="project-tags">
       <span class="tag">AWS</span>
       <span class="tag">Cloud Sovereignty</span>
@@ -123,7 +157,7 @@ En oversikt over mine profesjonelle konsulentoppdrag, sky-arkitekturer og utvikl
   <div class="project-card">
     <h3>Daglig Leder / DevOps Ekspert <span class="project-date">Sep 2022 - Apr 2024</span></h3>
     <div class="project-company">Solidify AS</div>
-    <p>Etablerte Solidify sitt kontor i Norge. Ansvarlig for alle administrative og strategiske oppgaver som økonomi, fakturering, rekruttering, HR og salg, i tillegg to direkte tekniske leveranser i DevOps- og Azure-prosjekter.</p>
+    <p>Etablerte Solidify sitt kontor i Norge. Ansvarlig for alle administrative og strategiske oppgaver som økonomi, fakturering, rekruttering, HR og salg, i tillegg til direkte tekniske leveranser i DevOps- og Azure-prosjekter.</p>
     <div class="project-tags">
       <span class="tag">Ledelse</span>
       <span class="tag">Administrasjon</span>
@@ -335,17 +369,18 @@ En oversikt over mine profesjonelle konsulentoppdrag, sky-arkitekturer og utvikl
 
 | Kategori | Teknologier & Verktøy |
 |---|---|
-| **DevOps / CI/CD** | GitHub, GitHub Actions, GitLab CI, Jenkins, Azure DevOps, Bitbucket, Concourse, Puppet, Ansible, Terraform, Helm |
+| **DevOps / CI/CD / SRE** | GitHub, GitHub Actions, GitLab CI, Jenkins, Azure DevOps, Bitbucket, Concourse, Puppet, Ansible, Terraform, Helm |
 | **Sky / Infrastruktur** | AWS (S3, EC2, ECS, ECR, CloudWatch), Azure (AKS, Azure AD, Networking, App Services), Cloud Foundry, VMware |
-| **Kjøretid / Containere** | Kubernetes, Docker, Docker Compose, OpenShift |
-| **Monitorering / Logging** | Grafana, Prometheus, Splunk, ELK Stack, Icinga, Loggly |
-| **Programmeringsspråk** | Java, Python, Perl, JavaScript, Bash/Shell, Go, PowerShell, Swift (Vapor), PHP, Scala |
-| **Databaser / Meldingskøer** | MySQL, PostgreSQL, MongoDB, InfluxDB, SQLite, Kafka (Aiven) |
-| **Metodikk & Prosess** | Agile, Scrum, Kanban, DevSecOps, Platform Engineering, Inner Source, ITIL, PRINCE2 |
+| **Kjøretid / Containere** | Kubernetes, Docker, Docker Compose, OpenShift, Cosmo Router |
+| **Monitorering / Logging** | Datadog, Grafana, Prometheus, Splunk, ELK Stack, Icinga, Loggly |
+| **Programmeringsspråk** | Java, Kotlin, Go, Rust, Python, Perl, JavaScript, Bash/Shell, Go, PowerShell, Swift (Vapor), PHP, Scala |
+| **APIer / Databaser** | GraphQL, MySQL, PostgreSQL, MongoDB, InfluxDB, SQLite, Kafka (Aiven) |
+| **Metodikk & Prosess** | SRE, Agile, Scrum, Kanban, DevSecOps, Platform Engineering, Inner Source, ITIL, PRINCE2 |
 
 ---
 
 ## 🤝 Frivillige verv & sideprosjekter
+*   **YPN Group:** Styreleder (2026 – Nåværende)
 *   **Young Professionals Norway:** Styremedlem (2022 – Nåværende)
 *   **Polar Interesseorganisasjon:** Styremedlem og teknisk IT-ansvarlig (2017 – 2024)
 *   **The Gathering:** Nettverks- og serveradministrasjon (2016 – 2020)
