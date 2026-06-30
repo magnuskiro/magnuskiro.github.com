@@ -1,19 +1,5 @@
 {% assign sorted_pages = site.pages | sort: "title" %}
 
-{% if page.url == '/' or page.url == '/en/' or page.url contains '/cv/' %}
-<p>
-  {% if page.url contains '/en/' %}
-    🌐 <a href="{{ page.url | replace: '/en/', '/' | relative_url }}"><strong>Norsk 🇳🇴</strong></a>
-  {% else %}
-    {% if page.url == '/' %}
-      🌐 <a href="{{ '/en/' | relative_url }}"><strong>English 🇬🇧</strong></a>
-    {% else %}
-      🌐 <a href="{{ '/en' | append: page.url | relative_url }}"><strong>English 🇬🇧</strong></a>
-    {% endif %}
-  {% endif %}
-</p>
-{% endif %}
-
 <p>
   {% if page.url contains '/en/' %}
     <a href="{{ '/en/cv' | relative_url }}"><strong>CV</strong></a>
@@ -23,30 +9,57 @@
 </p>
 
 <p>
-  <a href="{{ '/tech' | relative_url }}"><strong>Tech</strong></a><br />
-  {% for p in sorted_pages %}
-    {% if p.path contains 'tech/' %}
-      &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
-    {% endif %}
-  {% endfor %}
+  {% if page.url contains '/en/' %}
+    <a href="{{ '/en/tech' | relative_url }}"><strong>Tech</strong></a><br />
+    {% for p in sorted_pages %}
+      {% if p.path contains 'en/tech/' %}
+        &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    <a href="{{ '/tech' | relative_url }}"><strong>Tech</strong></a><br />
+    {% for p in sorted_pages %}
+      {% if p.path contains 'tech/' and p.path contains 'en/' == false %}
+        &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 </p>
 
 <p>
-  <a href="{{ '/mgmt' | relative_url }}"><strong>Management</strong></a><br />
-  {% for p in sorted_pages %}
-    {% if p.path contains 'mgmt/' %}
-      &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
-    {% endif %}
-  {% endfor %}
+  {% if page.url contains '/en/' %}
+    <a href="{{ '/en/mgmt' | relative_url }}"><strong>Management</strong></a><br />
+    {% for p in sorted_pages %}
+      {% if p.path contains 'en/mgmt/' %}
+        &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    <a href="{{ '/mgmt' | relative_url }}"><strong>Management</strong></a><br />
+    {% for p in sorted_pages %}
+      {% if p.path contains 'mgmt/' and p.path contains 'en/' == false %}
+        &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 </p>
 
 <p>
-  <a href="{{ '/terran' | relative_url }}"><strong>Terran</strong></a><br />
-  {% for p in sorted_pages %}
-    {% if p.path contains 'terran/' %}
-      &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
-    {% endif %}
-  {% endfor %}
+  {% if page.url contains '/en/' %}
+    <a href="{{ '/en/terran' | relative_url }}"><strong>Terran</strong></a><br />
+    {% for p in sorted_pages %}
+      {% if p.path contains 'en/terran/' %}
+        &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    <a href="{{ '/terran' | relative_url }}"><strong>Terran</strong></a><br />
+    {% for p in sorted_pages %}
+      {% if p.path contains 'terran/' and p.path contains 'en/' == false %}
+        &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 </p>
 
 <p>
