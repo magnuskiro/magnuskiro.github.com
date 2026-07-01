@@ -19,8 +19,10 @@
   {% else %}
     <a href="{{ '/tech' | relative_url }}"><strong>Tech</strong></a><br />
     {% for p in sorted_pages %}
-      {% if p.path contains 'tech/' and p.path contains 'en/' == false %}
-        &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
+      {% if p.path contains 'tech/' %}
+        {% unless p.path contains 'en/' %}
+          &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
+        {% endunless %}
       {% endif %}
     {% endfor %}
   {% endif %}
@@ -37,8 +39,10 @@
   {% else %}
     <a href="{{ '/mgmt' | relative_url }}"><strong>Management</strong></a><br />
     {% for p in sorted_pages %}
-      {% if p.path contains 'mgmt/' and p.path contains 'en/' == false %}
-        &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
+      {% if p.path contains 'mgmt/' %}
+        {% unless p.path contains 'en/' %}
+          &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
+        {% endunless %}
       {% endif %}
     {% endfor %}
   {% endif %}
@@ -55,8 +59,10 @@
   {% else %}
     <a href="{{ '/terran' | relative_url }}"><strong>Terran</strong></a><br />
     {% for p in sorted_pages %}
-      {% if p.path contains 'terran/' and p.path contains 'en/' == false %}
-        &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
+      {% if p.path contains 'terran/' %}
+        {% unless p.path contains 'en/' %}
+          &rsaquo; <a href="{{ p.url | relative_url }}">{{ p.title }}</a><br />
+        {% endunless %}
       {% endif %}
     {% endfor %}
   {% endif %}

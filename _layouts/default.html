@@ -15,11 +15,11 @@ site.github.build_revision | relative_url }}">
       <header>
         <h1 style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 1.5rem; line-height: 1;">
           <a href="{{ '/' | relative_url }}" style="color: var(--text-primary); text-decoration: none;">Kirø~$</a>
-          <span class="lang-toggle" style="font-size: 0.8rem; font-weight: 500; font-family: var(--font-mono); border: 1px solid var(--border-color); padding: 0.15rem 0.4rem; border-radius: 6px; background-color: var(--code-bg); display: inline-flex; gap: 0.2rem; align-items: center;">
+          <span class="lang-toggle">
             {% if page.url contains '/en/' %}
-              <a href="{{ page.url | replace: '/en/', '/' | relative_url }}" style="color: var(--accent-color); text-decoration: none; font-weight: bold;">no</a><span style="color: var(--border-color);">|</span><span style="color: var(--text-secondary); opacity: 0.6;">en</span>
+              <a href="{{ page.url | replace: '/en/', '/' | relative_url }}" title="Norsk">🇳🇴</a><span class="divider">|</span><span class="active-lang" title="English">🇬🇧</span>
             {% else %}
-              <span style="color: var(--text-secondary); opacity: 0.6;">no</span><span style="color: var(--border-color);">|</span><a href="{{ '/en' | append: page.url | relative_url }}" style="color: var(--accent-color); text-decoration: none; font-weight: bold;">en</a>
+              <span class="active-lang" title="Norsk">🇳🇴</span><span class="divider">|</span><a href="{{ '/en' | append: page.url | relative_url }}" title="English">🇬🇧</a>
             {% endif %}
           </span>
         </h1>
